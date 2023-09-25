@@ -538,6 +538,62 @@ img {
 .icon-link-footer {
   fill: var(--c-logo);
 }
+.footer-feedback {
+  margin: 80px 100px 152px 136px;
+}
+.footer-text-subscribe {
+  margin-bottom: 16px;
+  color: var(--c-bgl);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.footer-form {
+  display: flex;
+  gap: 24px;
+}
+.footer-form-input {
+  width: 264px;
+  height: 40px;
+  border: 1px solid var(--c-bgl);
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  color: var(--c-bgl);
+}
+.footer-form-input .placeholder {
+  color: var(--c-bgl);
+}
+.footer-form-btn {
+  max-width: 165px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  text-align: center;
+  color: var(--c-bgl);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  border-radius: 4px;
+  border: none;
+  background-color: var(--c-brand);
+  padding: 8px 24px;
+}
+.footer-form-icon {
+  margin-left: 16px;
+  fill: var(--c-bgl);
+}
+
 /* modal*/
 .backdrop {
   position: fixed;
@@ -735,9 +791,8 @@ img {
   max-width: 169px;
   height: 56px;
   font-family: 'Roboto', sans-serif;
-  margin: 24px auto;
+  margin-bottom: 24px 0;
   padding: 16px 32px;
-  gap: 10px;
   border: none;
   border-radius: 4px;
   color: var(--c-bgl);
