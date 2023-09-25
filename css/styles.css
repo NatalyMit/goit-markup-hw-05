@@ -698,9 +698,6 @@ img {
   justify-content: center;
 }
 
-.check-icon {
-}
-
 .input-check-link {
   color: var(--c-brand);
   font-size: 12px;
