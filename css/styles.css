@@ -571,12 +571,13 @@ img {
   color: var(--c-bgl);
 }
 .footer-form-btn {
-  max-width: 165px;
+  min-width: 165px;
   height: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  font-family: 'Roboto', sans-serif;
   text-align: center;
   color: var(--c-bgl);
   font-family: Roboto;
