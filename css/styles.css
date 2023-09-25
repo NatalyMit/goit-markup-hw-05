@@ -551,7 +551,7 @@ img {
 .modal {
   max-width: 408px;
   min-height: 584px;
-  background-color: #fff;
+  background-color: var(--c-bgl);
   padding: 72px 24px 24px;
   position: absolute;
   top: 50%;
@@ -678,6 +678,7 @@ img {
 }
 .check-input {
   margin-right: 8px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
 }
 .input-check-text {
   color: #8e8f99;
@@ -690,7 +691,7 @@ img {
   width: 16px;
   height: 16px;
   border-radius: 2px;
-  border: 1px solid #2e2f4266;
+  border: 1px solid rgba(46, 47, 66, 0.4);
   fill: transparent;
   display: inline-flex;
   align-items: center;
@@ -709,8 +710,10 @@ img {
 }
 .modal-send-btn {
   display: block;
+  width: 169px;
+  height: 56px;
+  margin: 24px auto;
   padding: 16px 32px;
-  margin: 0 auto;
   gap: 10px;
   border: none;
   border-radius: 4px;
