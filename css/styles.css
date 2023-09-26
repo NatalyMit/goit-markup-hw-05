@@ -172,6 +172,7 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  margin: 0 auto;
 }
 
 .title-list {
@@ -288,7 +289,7 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--c-bg);
-  /* margin-bottom: 72px;*/
+  margin-bottom: 72px;
 }
 
 .list-specialists {
@@ -434,9 +435,6 @@ img {
 
 /*Footer-section*/
 .container-footer {
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px 0 15px;
   display: flex;
   align-items: baseline;
 }
@@ -447,7 +445,6 @@ img {
 }
 
 .footer-text-container {
-  display: inline-block;
   margin-right: 120px;
 }
 .footer-logo-one {
@@ -484,12 +481,7 @@ img {
   margin: 0;
   padding: 0;
 }
-.footer-links-container {
-  display: inline-block;
-  padding-bottom: 32px;
-  padding-top: 0;
-  margin-bottom: 100px;
-}
+
 .hero-footer {
   font-weight: 500;
   font-size: 16px;
@@ -539,7 +531,7 @@ img {
   fill: var(--c-logo);
 }
 .footer-feedback {
-  margin: 80px 100px 152px 136px;
+  margin-left: auto;
 }
 .footer-text-subscribe {
   margin-bottom: 16px;
@@ -757,7 +749,7 @@ img {
   fill: #f4f4fd;
 }
 .check-input {
-  margin-right: 8px;
+  margin-left: 8px;
   border: 1px solid rgba(46, 47, 66, 0.4);
 }
 .input-check-text {
